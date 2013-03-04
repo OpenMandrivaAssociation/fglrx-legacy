@@ -1,6 +1,1 @@
 amd-driver-installer-12.6-legacy-x86.x86_64.run
-atieventsd.init
-ati-packager.sh
-fglrx-legacy.rpmlintrc
-generate-fglrx-spec-from-svn.sh
-README_for_maintainers.txt
