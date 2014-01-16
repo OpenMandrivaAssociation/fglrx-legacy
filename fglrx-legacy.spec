@@ -221,7 +221,7 @@ ExclusiveArch:	%{ix86} x86_64
 BuildRoot:	%{_tmppath}/%{name}-root
 %endif
 %if !%{amdbuild}
-BuildRequires:	mesagl-devel
+BuildRequires:	pkgconfig(gl)
 BuildRequires:	libxmu-devel
 BuildRequires:	libxaw-devel
 BuildRequires:	libxp-devel
