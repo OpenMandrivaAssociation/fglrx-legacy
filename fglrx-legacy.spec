@@ -223,7 +223,7 @@ BuildRoot:	%{_tmppath}/%{name}-root
 %if !%{amdbuild}
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	libxmu-devel
-BuildRequires:	libxaw-devel
+BuildRequires:	xaw-devel
 BuildRequires:	libxp-devel
 BuildRequires:	libxtst-devel
 BuildRequires:	imake
