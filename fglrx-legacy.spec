@@ -90,7 +90,7 @@
 # to be supported by radeon which is from the same time period.
 # radeonhd has greater chance of working due to it not using ID lists.
 # (main pcitable entries override our entries)
-%define ldetect_cards_name	ATI Radeon HD 2000 to HD 4870 (vesa/fglrx-legacy)
+%define ldetect_cards_name	ATI Radeon HD 2000 to HD 4870 (radeon/fglrx-legacy)
 %endif
 
 %if %{mdkversion} <= 201100
