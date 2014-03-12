@@ -45,14 +45,14 @@
 # When updating, please add new ids to ldetect-lst (merge2pcitable.pl).
 
 # version in installer filename:
-%define oversion	12-6
+%define oversion	13-1
 #define oversion	%{iversion}
 # Advertised version, for description:
-%define mversion	12.6
+%define mversion	12.1
 # driver version from ati-packager-helper.sh:
-%define iversion	8.97.100.3
+%define iversion	8.97.100.7
 # release:
-%define rel		2
+%define rel		1
 # rpm version (adds 0 in order to not go backwards if iversion is two-decimal)
 %define version		%{iversion}%([ $(echo %iversion | wc -c) -le 5 ] && echo 0)
 %else
@@ -190,7 +190,7 @@ Release:	%{release}
 %if !%{amdbuild}
 %if !%{ubuntu_prerelease}
 %if !%{opencl_prerelease}
-Source0:	amd-driver-installer-%{mversion}-legacy-x86.x86_64.run
+Source0:	amd-driver-installer-catalyst-%{mversion}-legacy-linux-x86.x86_64.run
 %else
 Source0:	http://download2-developer.amd.com/amd/APPSDK/OpenCL1.2betadriversLinux.tgz
 %endif
