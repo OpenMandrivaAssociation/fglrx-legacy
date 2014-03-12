@@ -93,31 +93,6 @@
 %define ldetect_cards_name	ATI Radeon HD 2000 to HD 4870 (radeon/fglrx-legacy)
 %endif
 
-%if %{mdkversion} <= 201100
-%define ldetect_cards_name	ATI Radeon HD 2000 and later (vesa/fglrx)
-%endif
-
-%if %{mdkversion} <= 201000
-%define ldetect_cards_name	ATI Radeon HD 2000 and later (radeonhd/fglrx)
-%endif
-
-%if %{mdkversion} <= 200900
-%define ati_extdir	%{xorg_libdir}/modules/extensions/%{drivername}
-# radeonhd/fglrx
-%define ldetect_cards_name      ATI Radeon X1300 and later
-%endif
-
-%if %{mdkversion} <= 200810
-%define bundle_qt	1
-# vesa/fglrx
-%define ldetect_cards_name      ATI Radeon HD 3200
-%endif
-
-%if %{mdkversion} <= 200800
-# vesa/fglrx
-%define ldetect_cards_name      ATI Radeon X1300 - X1950
-%endif
-
 %ifarch %ix86
 %define xverdir		x%{xorg_version}
 %define archdir		arch/x86
