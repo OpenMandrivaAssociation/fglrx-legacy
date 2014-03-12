@@ -48,7 +48,7 @@
 %define oversion	13-1
 #define oversion	%{iversion}
 # Advertised version, for description:
-%define mversion	12.1
+%define mversion	13.1
 # driver version from ati-packager-helper.sh:
 %define iversion	8.97.100.7
 # release:
