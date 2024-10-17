@@ -189,7 +189,7 @@ Patch9:		fglrx-make_sh-custom-kernel-dir.patch
 # different kernel
 Patch10:	fglrx-make_sh-no-proc-probe.patch
 License:	Freeware
-URL:		http://ati.amd.com/support/driver.html
+URL:		https://ati.amd.com/support/driver.html
 Group:		System/Kernel and hardware
 ExclusiveArch:	%{ix86} x86_64
 %if %{mdvver} <= 201010
