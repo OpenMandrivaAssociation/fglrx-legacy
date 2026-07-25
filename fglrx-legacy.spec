@@ -61,7 +61,7 @@
 %endif
 
 %define priority	1000
-%define release %mkrel %{rel}
+%define release %{rel}.1
 
 # set to 1 for a prerelease driver with an ubuntu tarball as source
 %define ubuntu_prerelease 0
